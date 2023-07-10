@@ -25,7 +25,7 @@ export default function Login() {
       username: data.get("username"),
       password: data.get("password"),
     });
-    navigate("/homepage");
+    navigate("/home");
   };
 
   return (
